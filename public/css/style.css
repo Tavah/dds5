@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding-top: 5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.header h1 {
+    font-size: 3rem;
+    padding: 5rem;
+}
+
+.header h2 {
+    font-size: 1.2em;
+    padding-bottom: 3rem;
+    font-weight: 200;
+}
+
+.header h3 {
+    font-size: 5rem;
+    padding-bottom: 0  ;
+}
+
+.ToC {
+    text-align: center;
+}
+
+.ToC a {
+    position: relative ; top: 3em;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+.ToC a:link {
+    color: rgb(0, 0, 0);
+}
+
+.ToC a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.ToC a:hover {
+    color:rgb(71, 71, 71);
+}
+
+.buttons {
+justify-content: center;
+align-items: center;
+  
+}
+
+.buttons a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+      
+.buttons a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #000000;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    background-color: #f1f1f1;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+  
+.next {
+    background-color: #000000;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
